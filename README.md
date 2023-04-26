@@ -4,9 +4,12 @@
 
 
 # Pipeline : 
-1.Train  virtual assistant model   
+1.Train  virtual assistant model  
+
 2.Create a virtual assistant using EU2
+
 3.Integrate speech APIs
+
 4.Output responses using model:The response can then be passed through the text-to-speech API to convert it to speech and output it to the customer.
 
 # Problem Statement
