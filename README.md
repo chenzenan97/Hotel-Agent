@@ -30,14 +30,14 @@ For example:{Hotel Name: The Grand Hotel,Address: 123 Main St, Anytown US,Phone 
 
 Generating Conversations  
 To generate customer service conversations using this dataset, you can input the prompt into your ChatGPT model and let it generate the responses. The generated conversations are included in the TXT file.
-##Extracting Questions and Answers
+Extracting Questions and Answers
 To extract the questions and answers from the generated conversations in the TXT file, you can use a script or tool to parse the file and extract the text between the customer and customer service representative(CSV file).
 
 ```bash
    data/Extract_QandA.py  -> QANDA.csv
 ```
 
-##Labeling customer questions using GPT.  -- 2K_labels.csv
+Labeling customer questions using GPT.  -- 2K_labels.csv
  {1: Reservation, 2: Payment, 3: Check out, 4: Another} 
  prompt :"Label this sentence as {1: Reservation, 2: Payment, 3: Check out, 4: Another} return  number"+Questions
  
