@@ -1,6 +1,6 @@
 import streamlit as st
 import openai
-from model import user_AskQuestion
+from model.model import user_AskQuestion
 import re 
 
 st.set_page_config(page_title="客服助手", layout="centered")
