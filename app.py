@@ -36,7 +36,7 @@ with st.container():
 st.markdown("---")
 
 # Set up the OpenAI API
-openai.api_key = "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"
+openai.api_key = ""
 
 def classify_input(prompt):
     response = openai.Completion.create(
