@@ -6,7 +6,7 @@ import re
 st.set_page_config(page_title="客服助手", layout="centered")
 
 # Add an image at the top
-st.image("hotel_01.png", width=600)
+st.image("./imgs/hotel_01.png", width=600)
 
 st.title("Welcome to LiHao Hotel")
 
